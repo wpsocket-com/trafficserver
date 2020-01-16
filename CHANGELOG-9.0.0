@@ -859,6 +859,7 @@ Changes with Apache Traffic Server 9.0.0
   #6266 - LGTM: Fix wrong type of arguments to formatting function
   #6268 - Add tests to exercise H2 and chunked encoding
   #6275 - Clear all pointers in API Hooks clear function.
+  #6278 - Add new log field to output server name sent by client in TLS handshake.
   #6280 - Assure no SM survives plugin factory deactivation.
   #6281 - Perf: replace dynamic_cast with static_cast in this_thread()
   #6283 - Adjust debug tag for ssl_sni_whitelist plugin to match plugin
@@ -868,3 +869,5 @@ Changes with Apache Traffic Server 9.0.0
   #6297 - Add links to RWW sections
   #6307 - Reduce process duration of test_Http2FrequencyCounter
   #6324 - Fixes clang-format issues
+  #6325 - Fixes typo in TLS Bridge illustration
+  #6329 - Fixed build issues on macOS after 0-RTT merge
